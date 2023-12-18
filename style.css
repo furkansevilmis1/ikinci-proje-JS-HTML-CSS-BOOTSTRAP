@@ -1,0 +1,661 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+nav{
+ position: sticky;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #2980b9;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #2980b9;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    
+}
+.giris{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 8px;
+    
+}
+.giris input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+.giris button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+.kayitol{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 8px;
+
+}
+
+.kayitol input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.kayitol button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.secenek{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 5px;
+  
+}
+
+.secenek img{
+    width: 450px;
+    height: 320px;
+}
+
+.alt{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.alt img{
+    width: 330px;
+    height: auto;
+}
+
+.bozuk{
+    width: 450px;
+    height: 400px;
+}
+
+.secenek:nth-child(2){
+    height: 500px;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: lightgray;
+}
+
+.foots{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.foots > span {
+    font-weight: bold;
+    color: white;
+}
+
+.foots > i {
+    font-size: 20px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+   
+    
+
+}
+
+.foot p{
+    text-decoration: underline;
+    font-size: 12px;
+    margin: 0px;
+    line-height: 10px;
+    text-align: center;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 5px;
+    background-color: lightgray;
+}
+
+.arama{
+    width: 30%;
+}
+
+.search p{
+    margin: 0px;
+    text-align: center;
+}
+
+.search input{
+    border-radius: 15px;
+}
+
+.secenek img:hover{
+    width: 500px;
+    height: 350px;
+    transition: 1.5s;
+    
+}
+
+.sale img:hover{
+    transform: rotateY(360deg);
+}
+.sale img{
+    transition: 4s;
+}
+.container-fluid .icon:hover{
+    transform: rotateY(360deg);
+     
+}
+.container-fluid .icon{
+    transition: 5s ;  
+}
+
+
+
+
+/* erkek saat */
+
+
+
+
+.erkekbody{
+    background: linear-gradient(to right, rgb(61, 150, 233), rgb(238, 236, 236));
+}
+.dis{
+    display: flex;
+    width: 100%;
+}
+
+.card-body h5,p{
+    width: 100%;
+    height: 50px;
+    line-height: 17px;
+}
+
+.card button{
+    width: 90px;
+    height: 40px;
+}
+
+
+/* .card-img-top{
+    width: 300px;
+    height: auto;
+} */
+
+/* .img-kapsayici {
+    width: 150px;
+    height: 100px;
+}
+ */
+
+
+/*  */
+/* kadın saat */
+
+.kadınbody{
+    background: linear-gradient(to right, rgb(223, 181, 230), rgb(246, 243, 248));
+}
+
+.img-kapsayici{
+    width: 100%;
+    justify-content: space-between;
+}
+.img-kapsayici img{
+    width: 200px
+    
+}
+
+@media(max-width:1300px){
+    .alt img{
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+@media(max-width:1070px){
+    .alt img{
+        width: 180px;
+        height: auto;
+    }
+}       
+@media(max-width:940px){
+    .secenek img{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media(max-width:835px){
+    .secenek img{
+        width: 380px;
+        height: 290px;
+    }
+}
+
+@media(max-width:800px){
+    .secenek img{
+        width: 350px;
+        height: 280px;
+    }
+}
+@media(max-width:800px){
+    .alt img{
+        width: 150px;
+        height: auto;
+    }
+    .img-kapsayici img{
+        width: 100px;
+        
+    }
+}
+
+@media(max-width:735px){
+    .secenek img{
+        width: 300px;
+        height: 250px;
+    }
+    .foots > p{
+        font-size: 12px;
+    }
+    .foots > i{
+        font-size: 15px;
+    }
+}
+@media(max-width:705px){
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+
+}
+@media(max-width:646px){
+    .navbar .menu li a{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-kapsayici img{
+        width: 80px;
+        
+    }
+
+}
+@media(max-width:640px){
+    .secenek img{
+        width: 260px;
+        height: 220px;
+    }
+    .alt img{
+        width: 130px;
+        height: auto;
+    }
+    .sale img{
+        width: 95%;
+        margin-top: 5px;
+    }
+    .navbar .menu li{
+        margin: 5px;
+        padding: 0px;
+        
+    }
+    .navbar .menu{
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-kapsayici img{
+        width: 70px;
+        
+    }
+    .inner-kapsayici{
+        width: 70%;
+    }
+    .diger-kapsayici .marka{
+        font-size: 15px;
+    }
+    .diger-kapsayici .detay{
+        font-size: 15px;
+    }
+    .diger-kapsayici .fiyat{
+        font-size: 15px;
+    }
+    .diger-kapsayici .but{
+        width: 45px;
+    }
+    
+}
+@media(max-width:610px){
+    .foots > p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .foots > i{
+        font-size: 12px;
+        text-align: center;
+
+    }
+    .footer-1{
+        display: block;
+        text-align: center;
+    }
+    .footer-2{
+        display: block;
+        text-align: center;
+        /* margin-bottom:30px; */
+    }
+}
+
+@media(max-width:590px){
+
+    .diger-kapsayici .marka{
+        font-size: 12px;
+    }
+    .diger-kapsayici .detay{
+        font-size: 12px;
+    }
+    .diger-kapsayici .fiyat{
+        font-size: 12px;
+    }
+
+
+    }
+
+
+@media(max-width:555px){
+    .secenek img{
+        width: 220px;
+        height: 180px;
+    }
+    nav .navbar{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav .navbar .logo a{
+        font-size: 17px;
+        text-align: center;
+        display: none;
+}
+.navbar .menu li a{
+    font-size: 15px;
+}
+
+.navbar .menu{
+    display: flex;
+    gap: 10px;
+}
+}
+
+@media(max-width:475px){
+    .secenek img{
+        width: 100%;
+        height: auto;
+    }
+    .alt img{
+        display: none;
+    }
+    .foots > p{
+        font-size: 8px;
+    }
+    .foots > i{
+        font-size: 10px;
+    }
+    .diger-kapsayici .marka{
+        font-size: 10px;
+    }
+    .diger-kapsayici .detay{
+        font-size: 10px;
+    }
+    .diger-kapsayici .fiyat{
+        font-size: 10px;
+    }
+    .diger-kapsayici .but{
+        width: 43px;
+    }
+    
+}
+
+@media(max-width:450px){
+    .foots > p{
+        font-size: 6px;
+    }
+    .foots > i{
+        font-size: 8px;
+    }
+    .navbar .menu{
+       display: flex;
+       justify-content: flex-start;
+       text-align: left;
+       
+    }
+    nav .navbar .logo a{
+       display: none;
+}
+
+    .diger-kapsayici .marka{
+        font-size: 8px;
+    }
+    .diger-kapsayici .detay{
+        font-size: 8px;
+    }
+    .diger-kapsayici .fiyat{
+        font-size: 8px;
+    }
+    .diger-kapsayici .but{
+        font-size: 15px;
+        width: 42px;
+    }
+    .diger-kapsayici .img{
+        width: 65px;
+    }
+
+nav .navbar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+}
+
+@media(max-width:410px){
+    .navbar .menu li a{
+        font-size: 12px;
+      
+    }
+    nav .navbar .logo a{
+        font-size: 17px;
+        text-align: center;
+}
+.diger-kapsayici .but{
+    font-size: 8px;
+    width: 35px;
+
+}
+.diger-kapsayici .marka{
+    font-size: 12px;
+}
+.diger-kapsayici .detay{
+    font-size: 12px;
+}
+.diger-kapsayici .fiyat{
+    font-size: 12px;
+}
+
+.diger-kapsayici .img{
+    width: 65px;
+}
+.diger-kapsayici{
+    padding: 0px;
+}
+.card-body{
+    gap:0px;
+}
+.card{
+    margin: auto;
+    margin-top: 5px;
+}
+}
+
+@media(max-width:345px){
+    .navbar .menu li a{
+        font-size: 10px;
+      
+    }
+}
+
+
+/* loginpage */
+
+.loginn{
+    background-image: url(./img/bg-img.jpg);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.toggle-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kapsayici-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+
+}
+
+#btn-giris{
+    background-color: lightgray;
+}
+
+#btn-uye{
+    background-color: lightgray;
+}
